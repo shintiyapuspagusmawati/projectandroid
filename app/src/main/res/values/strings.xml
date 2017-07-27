@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectPertama</string>
+    <string name="title_activity_class_ke_dua">ClassKeDua</string>
+    <string name="title_activity_relative_layout">RelativeLayout</string>
+    <string name="title_activity_relative_layout_sederhana">RelativeLayoutSederhana</string>
+    <string name="title_activity_layout_table">LayoutTable</string>
+    <string name="title_activity_gambar_android">GambarAndroid</string>
+</resources>
