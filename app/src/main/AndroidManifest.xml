@@ -8,22 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LinearLayout">
-
-        </activity>
+        <activity android:name=".LinearLayout" />
         <activity
             android:name=".ClassKeDua"
-            android:label="@string/title_activity_class_ke_dua">
-
-        </activity>
+            android:label="@string/title_activity_class_ke_dua" />
         <activity
             android:name=".RelativeLayoutSederhana"
-            android:label="@string/title_activity_relative_layout_sederhana">
-
-        </activity>
+            android:label="@string/title_activity_relative_layout_sederhana" />
         <activity
             android:name=".LayoutTable"
-            android:label="@string/title_activity_layout_table">
+            android:label="@string/title_activity_layout_table"></activity>
+        <activity
+            android:name=".GambarAndroid"
+            android:label="@string/title_activity_gambar_android"></activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,8 +31,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GambarAndroid"
-            android:label="@string/title_activity_gambar_android">
+            android:name=".AutocompleteSederhana"
+            android:label="@string/title_activity_autocomplete_sederhana">
+
+        </activity>
+        <activity
+            android:name=".KotakDialog"
+            android:label="@string/title_activity_kotak_dialog">
 
         </activity>
     </application>

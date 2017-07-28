@@ -1,8 +1,21 @@
 <resources>
-    <string name="app_name">ProjectPertama</string>
+    <!--<string name="app_name">ProjectPertama</string>-->
     <string name="title_activity_class_ke_dua">ClassKeDua</string>
     <string name="title_activity_relative_layout">RelativeLayout</string>
     <string name="title_activity_relative_layout_sederhana">RelativeLayoutSederhana</string>
     <string name="title_activity_layout_table">LayoutTable</string>
     <string name="title_activity_gambar_android">GambarAndroid</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_autocomplete_sederhana">AutocompleteSederhana</string>
+    <!--<string name="hello">Hello World, Autocomplete</string>-->
+    <!--<string name="app_name">Membuat Text Autocomplete</string>-->
+    <string name="perintah">Masukan minimal 3 huruf</string>
+    <string name="title_activity_dialog_box">DialogBox</string>
+    <string name="hello">Hello World, kontakDialog!</string>
+    <string name="app_name">Membuat Kontak Dialog</string>
+    <string name="toasTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+    <string name="listDialogTextBtn">Panggilan List Dialog</string>
+    <string name="title_activity_kontak_dialog">KontakDialog</string>
+    <string name="title_activity_kotak_dialog">KotakDialog</string>
 </resources>
