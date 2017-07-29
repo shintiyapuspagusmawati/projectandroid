@@ -11,11 +11,19 @@
     <!--<string name="app_name">Membuat Text Autocomplete</string>-->
     <string name="perintah">Masukan minimal 3 huruf</string>
     <string name="title_activity_dialog_box">DialogBox</string>
-    <string name="hello">Hello World, kontakDialog!</string>
-    <string name="app_name">Membuat Kontak Dialog</string>
+    <!--<string name="hello">Hello World, kontakDialog!</string>-->
+    <!--<string name="app_name">Membuat Kontak Dialog</string>-->
     <string name="toasTextBtn">Panggil Toast</string>
     <string name="exitTextBtn">Keluar Aplikasi</string>
     <string name="listDialogTextBtn">Panggilan List Dialog</string>
     <string name="title_activity_kontak_dialog">KontakDialog</string>
     <string name="title_activity_kotak_dialog">KotakDialog</string>
+    <string name="title_activity_call">CallActivity</string>
+    <string name="title_activity_call2">CallActivity2</string>
+    <string name="title_activity_picker">Picker</string>
+    <string name="title_activity_check_box">CheckBox</string>
+    <string name="hello">Hello World, CheckBox!</string>
+    <string name="app_name">Membuat CheckBox</string>
+    <string name="CheckBox">CheckBox ini : Tidak Dicentang!</string>
+    <string name="title_activity_radio_button">RadioButton</string>
 </resources>

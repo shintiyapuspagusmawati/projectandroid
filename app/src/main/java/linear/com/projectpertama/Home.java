@@ -78,6 +78,28 @@ public class Home extends Activity {
 
             }
         });
+
+        Button p = (Button) findViewById(R.id.Picker);
+        p.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View Picker) {
+                Intent myIntent = new
+                        Intent(Picker.getContext(), Picker.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button cb = (Button) findViewById(R.id.check);
+        cb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View cb) {
+                Intent myIntent = new
+                        Intent(cb.getContext(), checkBox.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
     }
 
 }
