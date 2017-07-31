@@ -32,25 +32,28 @@
         </activity>
         <activity
             android:name=".AutocompleteSederhana"
-            android:label="@string/title_activity_autocomplete_sederhana" />
+            android:label="@string/title_activity_autocomplete_sederhana"></activity>
         <activity
             android:name=".KotakDialog"
-            android:label="@string/title_activity_kotak_dialog" />
+            android:label="@string/title_activity_kotak_dialog"></activity>
         <activity
             android:name=".CallActivity"
-            android:label="@string/title_activity_call" />
+            android:label="@string/title_activity_call"></activity>
         <activity
             android:name=".CallActivity2"
-            android:label="@string/title_activity_call2" />
+            android:label="@string/title_activity_call2"></activity>
         <activity
             android:name=".Picker"
-            android:label="@string/title_activity_picker" />
+            android:label="@string/title_activity_picker"></activity>
         <activity
             android:name=".checkBox"
-            android:label="@string/title_activity_check_box" />
+            android:label="@string/title_activity_check_box"></activity>
         <activity
             android:name=".RadioButton"
             android:label="@string/title_activity_radio_button"></activity>
+        <activity
+            android:name=".listView"
+            android:label="@string/title_activity_list_view"></activity>
     </application>
 
 </manifest>

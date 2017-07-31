@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.*;
 
 public class Home extends Activity {
 
@@ -100,6 +100,29 @@ public class Home extends Activity {
 
             }
         });
+
+        Button rb = (Button) findViewById(R.id.radio);
+        rb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View radio) {
+                Intent myIntent = new
+                        Intent(radio.getContext(), RadioButton.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button lv = (Button) findViewById(R.id.list);
+        lv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View list) {
+                Intent myIntent = new
+                        Intent(list.getContext(), listView.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
     }
 
 }

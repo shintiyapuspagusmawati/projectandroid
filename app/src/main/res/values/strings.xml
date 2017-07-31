@@ -26,4 +26,5 @@
     <string name="app_name">Membuat CheckBox</string>
     <string name="CheckBox">CheckBox ini : Tidak Dicentang!</string>
     <string name="title_activity_radio_button">RadioButton</string>
+    <string name="title_activity_list_view">ListView</string>
 </resources>

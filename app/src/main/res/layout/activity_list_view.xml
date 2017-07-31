@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_picker"
+    android:id="@+id/activity_list_view"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
@@ -9,23 +9,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="linear.com.projectpertama.Picker">
+    tools:context="linear.com.projectpertama.ListView">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello"
-        android:id="@+id/dateAndTime"/>
-    <Button
+        android:id="@+id/yangDipilih" />
+    <ListView
+        android:id="@android:id/list"
         android:layout_width="fill_parent"
-        android:layout_height="55px"
-        android:text="Set the Da"
-        android:id="@+id/dayBtn">
-    </Button>
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="55px"
-        android:text="Set the Time"
-        android:id="@+id/timeBtn">
-    </Button>
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"/>
 </LinearLayout>
