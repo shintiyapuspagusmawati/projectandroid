@@ -123,6 +123,29 @@ public class Home extends Activity {
             }
         });
 
+        Button c1 = (Button) findViewById(R.id.activity_call);
+        c1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View call) {
+                Intent myIntent = new
+                        Intent(call.getContext(), CallActivity.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+        Button pa = (Button) findViewById(R.id.play);
+        pa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pa) {
+                Intent myIntent = new
+                        Intent(pa.getContext(), playingAudio.class);
+                startActivityForResult(myIntent, 0);
+
+            }
+        });
+
+
     }
 
 }

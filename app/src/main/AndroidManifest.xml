@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -32,28 +32,31 @@
         </activity>
         <activity
             android:name=".AutocompleteSederhana"
-            android:label="@string/title_activity_autocomplete_sederhana"></activity>
+            android:label="@string/title_activity_autocomplete_sederhana" />
         <activity
             android:name=".KotakDialog"
-            android:label="@string/title_activity_kotak_dialog"></activity>
+            android:label="@string/title_activity_kotak_dialog" />
         <activity
             android:name=".CallActivity"
-            android:label="@string/title_activity_call"></activity>
+            android:label="@string/title_activity_call" />
         <activity
             android:name=".CallActivity2"
-            android:label="@string/title_activity_call2"></activity>
+            android:label="@string/title_activity_call2" />
         <activity
             android:name=".Picker"
-            android:label="@string/title_activity_picker"></activity>
+            android:label="@string/title_activity_picker" />
         <activity
             android:name=".checkBox"
-            android:label="@string/title_activity_check_box"></activity>
+            android:label="@string/title_activity_check_box" />
         <activity
             android:name=".RadioButton"
-            android:label="@string/title_activity_radio_button"></activity>
+            android:label="@string/title_activity_radio_button" />
         <activity
             android:name=".listView"
-            android:label="@string/title_activity_list_view"></activity>
+            android:label="@string/title_activity_list_view" />
+        <activity
+            android:name=".playingAudio"
+            android:label="@string/title_activity_playing_audio"></activity>
     </application>
 
 </manifest>
