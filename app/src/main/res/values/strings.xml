@@ -28,4 +28,5 @@
     <string name="title_activity_radio_button">RadioButton</string>
     <string name="title_activity_list_view">ListView</string>
     <string name="title_activity_playing_audio">playingAudio</string>
+    <string name="title_activity_bmi">BMI</string>
 </resources>

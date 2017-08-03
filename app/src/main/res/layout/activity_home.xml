@@ -20,35 +20,35 @@
         android:textColor="#000"
         android:layout_width="fill_parent"
         android:layout_height="55px"
-        android:text="Linear Layout Sederhana"
+        android:text="Linear Layout"
         android:id="@+id/LinearLayoutSederhana">
     </Button>
     <Button
         android:textColor="#000"
         android:layout_width="fill_parent"
         android:layout_height="55px"
-        android:text="Linear Layout Relative"
+        android:text="Layout Relative"
         android:id="@+id/LinearLayoutRelative">
     </Button>
     <Button
         android:textColor="#000"
         android:layout_width="fill_parent"
         android:layout_height="55px"
-        android:text="Linear Layout Table"
+        android:text="Layout Table"
         android:id="@+id/LinearLayoutTable">
     </Button>
     <Button
         android:textColor="#000"
         android:layout_width="fill_parent"
         android:layout_height="55px"
-        android:text="Menampilkan Gambar Android"
+        android:text="Menampilkan Gambar"
         android:id="@+id/GambarAndroid">
     </Button>
     <Button
         android:textColor="#000"
         android:layout_width="fill_parent"
         android:layout_height="55px"
-        android:text="Teks Autocomplete"
+        android:text="Autocomplete"
         android:id="@+id/TextAutocomplete">
     </Button>
     <Button
@@ -99,6 +99,13 @@
         android:layout_height="55px"
         android:text="Playing Audio"
         android:id="@+id/play">
+    </Button>
+    <Button
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Kalkulator Berat Badan"
+        android:id="@+id/activity_bmi">
     </Button>
 </LinearLayout>
 </ScrollView>

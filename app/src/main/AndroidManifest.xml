@@ -56,7 +56,12 @@
             android:label="@string/title_activity_list_view" />
         <activity
             android:name=".playingAudio"
-            android:label="@string/title_activity_playing_audio"></activity>
+            android:label="@string/title_activity_playing_audio" />
+        <activity
+            android:name=".BMI"
+            android:label="@string/title_activity_bmi">
+
+        </activity>
     </application>
 
 </manifest>

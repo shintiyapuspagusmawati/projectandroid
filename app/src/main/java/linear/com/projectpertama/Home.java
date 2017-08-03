@@ -145,7 +145,16 @@ public class Home extends Activity {
             }
         });
 
+        Button bb = (Button) findViewById(R.id.activity_bmi);
+        bb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View pa) {
+                Intent myIntent = new
+                        Intent(pa.getContext(), BMI.class);
+                startActivityForResult(myIntent, 0);
 
+            }
+        });
     }
 
 }
