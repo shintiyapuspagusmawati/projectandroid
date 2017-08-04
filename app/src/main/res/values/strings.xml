@@ -29,4 +29,5 @@
     <string name="title_activity_list_view">ListView</string>
     <string name="title_activity_playing_audio">playingAudio</string>
     <string name="title_activity_bmi">BMI</string>
+    <string name="title_activity_web_view">webView</string>
 </resources>

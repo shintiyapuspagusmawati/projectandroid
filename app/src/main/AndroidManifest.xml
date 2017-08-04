@@ -59,9 +59,10 @@
             android:label="@string/title_activity_playing_audio" />
         <activity
             android:name=".BMI"
-            android:label="@string/title_activity_bmi">
-
-        </activity>
+            android:label="@string/title_activity_bmi" />
+        <activity
+            android:name=".webView"
+            android:label="@string/title_activity_web_view" />
     </application>
 
 </manifest>
